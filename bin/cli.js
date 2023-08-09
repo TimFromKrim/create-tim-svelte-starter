@@ -16,12 +16,12 @@ const runCommand = (command) => {
 
 const repoName =
 	process.argv[2] == undefined ? "tim-svelte-starter" : process.argv[2];
-const gitCheckoutCommand = `degit https://github.com/TimFromKrim/tim-svelte-starter.git ${repoName}`;
+const gitCheckoutCommand = `npx degit https://github.com/TimFromKrim/tim-svelte-starter.git ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
 
 console.log(`Cloning the repository with name ${repoName}`);
 const checkedOut = runCommand(gitCheckoutCommand);
-if (!checkedOut) process.exit(-1);
+// if (!checkedOut) process.exit(-1);
 
 console.log(
 	"Congratulations! You are ready. Follow the following commands to start",
