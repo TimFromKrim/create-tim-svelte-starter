@@ -2,7 +2,7 @@
   "name": "tim-svelte-starter",
   "version": "0.1.0",
   "type": "module",
-  "bin": "./bin/cli.js",
+  "bin": "./bin/cli.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/TimFromKrim/tim-svelte-starter.git"
@@ -14,8 +14,6 @@
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.4.2",
-    "svelte": "^4.0.3",
-    "vite": "^4.4.0",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.46.0",
     "postcss": "^8.4.27",
@@ -27,6 +25,12 @@
     "stylelint-config-recommended-scss": "^12.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
     "stylelint-order": "^6.0.3",
-    "stylelint-scss": "^5.0.1"
+    "stylelint-scss": "^5.0.1",
+    "svelte": "^4.0.3",
+    "vite": "^4.4.0"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
   }
 }
