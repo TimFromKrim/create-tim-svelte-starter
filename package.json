@@ -1,11 +1,11 @@
 {
   "name": "tim-svelte-starter",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "bin": "./bin/cli.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TimFromKrim/tim-svelte-vite-starter.git"
+    "url": "https://github.com/TimFromKrim/tim-svelte-starter.git"
   },
   "scripts": {
     "dev": "vite",
