@@ -1,5 +1,5 @@
 {
-  "name": "tim-svelte-starter",
+  "name": "create-tim-svelte-starter",
   "version": "0.1.1",
   "type": "module",
   "bin": "./bin/cli.ts",
