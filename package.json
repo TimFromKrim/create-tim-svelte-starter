@@ -2,7 +2,7 @@
   "name": "create-tim-svelte-starter",
   "version": "0.1.2",
   "type": "module",
-  "bin": "./bin/cli.ts",
+  "bin": "./bin/cli.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/TimFromKrim/tim-svelte-starter.git"
