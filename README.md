@@ -1,0 +1,1 @@
+# Tim's Svelte Vite template with all settings
