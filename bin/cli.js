@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-undef */
 
 import {execSync} from "child_process";
 import fs from "node:fs";
